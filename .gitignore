@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Datasets (never push data to GitHub)
+data/*
+!data/.gitkeep
+*.zip
+
+# Saved models
+checkpoints/*
+!checkpoints/.gitkeep
